@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jayalakshmi A - Data Analyst</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', sans-serif; background: #0a192f; color: #ccd6f6; }
+
+/* NAV */
+nav { position: fixed; top: 0; width: 100%; background: #0a192f; padding: 20px 50px; display: flex; justify-content: space-between; align-items: center; z-index: 100; border-bottom: 1px solid #1e3a5f; }
+.logo { color: #ffffff; font-size: 22px; font-weight: bold; }
+.nav-links { list-style: none; display: flex; gap: 30px; }
+.nav-links a { color: #ccd6f6; text-decoration: none; font-size: 15px; transition: color 0.3s; }
+.nav-links a:hover { color: #ffffff; }
+
+/* HERO */
+.hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 100px 20px 60px; }
+.hero-subtitle { color: #ffffff; font-size: 18px; margin-bottom: 15px; letter-spacing: 2px; }
+.hero h1 { font-size: 56px; color: #ffffff; margin-bottom: 20px; }
+.hero p { font-size: 18px; color: #8892b0; max-width: 600px; margin: 0 auto 30px; }
+.cta-btn { display: inline-block; padding: 14px 32px; border: 2px solid #ffffff; color: #ffffff; text-decoration: none; border-radius: 4px; font-size: 16px; transition: all 0.3s; }
+.cta-btn:hover { background: rgba(100,255,218,0.1); }
+
+/* SECTIONS */
+section { padding: 100px 50px; max-width: 1100px; margin: 0 auto; }
+.section-title { font-size: 32px; color: #ccd6f6; margin-bottom: 50px; text-align: center; }
+.section-title span { color: #ffffff; }
+
+/* ABOUT */
+.about-wrapper { display: flex; gap: 60px; align-items: center; }
+.about-img { width: 280px; height: 280px; border-radius: 50%; object-fit: cover; border: 3px solid #ffffff; flex-shrink: 0; }
+.about-text h3 { font-size: 24px; color: #ffffff; margin-bottom: 15px; }
+.about-text p { color: #8892b0; line-height: 1.8; margin-bottom: 12px; }
+.skills { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.skill-tag { background: rgba(100,255,218,0.1); color: #ffffff; padding: 6px 16px; border-radius: 20px; font-size: 14px; border: 1px solid #ffffff; }
+
+/* PROJECTS */
+.projects-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; }
+.project-card { background: #112240; border-radius: 12px; overflow: hidden; transition: transform 0.3s; }
+.project-card:hover { transform: translateY(-5px); }
+.project-card img { width: 100%; height: 250px; object-fit: contain; object-position: top; }
+.project-content { padding: 20px; }
+.project-content h4 { color: #ccd6f6; font-size: 18px; margin-bottom: 10px; }
+.project-content p { color: #8892b0; font-size: 14px; line-height: 1.6; margin-bottom: 15px; }
+.tech-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.tech-tag { background: rgba(100,255,218,0.1); color: #ffffff; padding: 4px 12px; border-radius: 20px; font-size: 12px; }
+
+/* CERTIFICATIONS */
+.cert-grid { display: flex; gap: 30px; flex-wrap: wrap; justify-content: center; }
+.cert-card { background: #112240; border-radius: 12px; padding: 25px 30px; border-left: 4px solid #ffffff; flex: 1; min-width: 250px; }
+.cert-card h4 { color: #ccd6f6; margin-bottom: 8px; }
+.cert-card p { color: #8892b0; font-size: 14px; }
+
+/* CONTACT */
+.contact-wrapper { text-align: center; }
+.contact-wrapper p { color: #8892b0; font-size: 18px; margin-bottom: 30px; }
+.contact-links { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+.contact-btn { padding: 14px 28px; border: 2px solid #ffffff; color: #ffffff; text-decoration: none; border-radius: 4px; font-size: 16px; transition: all 0.3s; }
+.contact-btn:hover { background: rgba(100,255,218,0.1); }
+
+/* FOOTER */
+footer { text-align: center; padding: 30px; color: #8892b0; font-size: 14px; border-top: 1px solid #1e3a5f; }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">Jayalakshmi A</div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div>
+    <div class="hero-subtitle">DATA ANALYST</div>
+    <h1>Jayalakshmi A</h1>
+    <p>Turning Data Into Meaningful Insights | BCA Graduate | Data Analytics Intern at Infotact Solutions</p>
+    <a href="#projects" class="cta-btn">View My Projects</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2 class="section-title">About <span>Me</span></h2>
+  <div class="about-wrapper">
+    <img src="C:\Users\jayal\Downloads\profile.jpeg" alt="Jayalakshmi A" class="about-img">
+    <div class="about-text">
+      <h3>Passionate about turning data into actionable insights</h3>
+      <p>BCA Graduate from Madras Christian College with hands-on experience in Data Analytics through internship and projects.</p>
+      <p>Completed Data Analytics Internship  at Infotact Solutions, Built a  Marketing Attribution & ROI Dashboard using Python, SQLite and Power BI.</p>
+      <p>Seeking entry-level Data Analyst roles in Chennai.</p>
+      <div class="skills">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">SQL & SQLite</span>
+        <span class="skill-tag">Power BI</span>
+        <span class="skill-tag">Tableau</span>
+        <span class="skill-tag">Excel</span>
+        <span class="skill-tag">Data Analysis</span>
+        <span class="skill-tag">EDA</span>
+        <span class="skill-tag">Machine Learning</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2 class="section-title">Featured <span>Projects</span></h2>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <img src="Dashboard/sales.png" alt="Customer Churn">
+      <div class="project-content">
+        <h4>Customer Churn Prediction & Sales Insights</h4>
+        <p>Analyzed 3,846 customer records to predict churn using ML models. Built Power BI dashboard highlighting ₹681M revenue and 250K orders.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">MySQL</span>
+          <span class="tech-tag">Power BI</span>
+          <span class="tech-tag">Machine Learning</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="Dashboard/marketing.png"Multi-Touch Attribution">
+      <div class="project-content">
+        <h4>Multi-Touch Marketing Attribution & ROI Dashboard</h4>
+        <p>Performed EDA on 586K-row dataset. Built Star Schema in SQLite, implemented attribution models and calculated CPC, CAC and ROAS KPIs.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">SQLite</span>
+          <span class="tech-tag">Power BI</span>
+          <span class="tech-tag">SQL</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="Dashboard/hospital.png" alt="Hospital Patient Analytics">
+      <div class="project-content">
+        <h4>Hospital Patient Analytics Dashboard</h4>
+        <p>Analyzed hospital patient data to identify billing patterns, medical condition distribution and insurance usage. Built interactive Power BI dashboard with 7 visuals.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">SQL</span>
+          <span class="tech-tag">Power BI</span>
+          <span class="tech-tag">Pandas</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="Dashboard/cohort.png" alt="Cohort Retention CLTV">
+      <div class="project-content">
+        <h4>Cohort Retention & CLTV Analysis</h4>
+        <p>Analyzed 500K+ retail transactions to build cohort retention matrix and calculate Customer Lifetime Value by country. Identified EIRE as highest CLTV market.</p>
+        <div class="tech-tags">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Pandas</span>
+          <span class="tech-tag">Power BI</span>
+          <span class="tech-tag">Jupyter</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <h2 class="section-title">Certifi<span>cations</span></h2>
+  <div class="cert-grid">
+    <div class="cert-card">
+      <h4>Deep Dive with Infotact on Data Analytics</h4>
+      <p>Infotact Learning | 2026</p>
+      <p>Credential ID: IF375055</p>
+    </div>
+    <div class="cert-card">
+      <h4>Data Analytics Training</h4>
+      <p>Neoskillz (Zeno Talent) | January 2026</p>
+      <p>Excel, SQL, Python, Power BI, Tableau</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2 class="section-title">Get In <span>Touch</span></h2>
+  <div class="contact-wrapper">
+    <p>Open to entry-level Data Analyst opportunities in Chennai. Feel free to reach out!</p>
+    <div class="contact-links">
+      <a href="mailto:jaylakshmi2701@gmail.com" class="contact-btn">📧 Email Me</a>
+      <a href="https://linkedin.com/in/jayalakshmi17" target="_blank" class="contact-btn">💼 LinkedIn</a>
+      <a href="https://github.com/jaya764" target="_blank" class="contact-btn">🐙 GitHub</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Jayalakshmi A. All rights reserved.</p>
+</footer>
+
+<script src="templatemo-personal-javascripts.js"></script>
+</body>
+</html>
